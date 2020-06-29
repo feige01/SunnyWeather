@@ -9,4 +9,4 @@ import com.google.gson.annotations.SerializedName
     val location: Location,
     @SerializedName("formatted_address") val address: String
 )
- class Location(val lns:String,val lat:String)
+ class Location(val lng:String,val lat:String)

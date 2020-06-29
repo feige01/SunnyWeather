@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
-    kotlinOptions { jvmTarget = 1.8}
+    kotlinOptions { jvmTarget = 1.8 }
     defaultConfig {
         applicationId "com.sunnyweather.android"
         minSdkVersion 16
